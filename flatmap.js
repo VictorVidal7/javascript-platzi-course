@@ -17,3 +17,5 @@ Input: [
 Output: 20 */
 
 function countWords(array) {
+    return array.flatMap(line => line.split(' ')).length;
+  }
